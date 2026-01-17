@@ -1,0 +1,22 @@
+{
+  "product": "Bell Boy BB-2",
+  "repoSlug": "BellBoy-BB2",
+  "releaseName": "Release1_Free",
+  "edition": "Free",
+  "sealedUtc": "20260117_004752_347Z",
+  "sourceFileName": "BellBoy-BB2-Release1_Free.ps1",
+  "buildStampDetected": null,
+  "detectedTabsBestEffort": [
+    1,
+    2,
+    3
+  ],
+  "artifacts": [
+    {
+      "path": "src/BellBoy-BB2-Release1_Free.ps1",
+      "bytes": 110746,
+      "sha256": "030d8bfabb97fe0d33696ead39ea70d02b2f50f5d9933f1dcfbdf643a041670d"
+    }
+  ],
+  "notes": "Sealed release kit generated in ChatGPT tool environment; verify on your Windows host as part of publishing."
+}
