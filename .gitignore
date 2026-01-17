@@ -1,0 +1,29 @@
+﻿# --- OS / Editor ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.tmp
+
+# --- Logs / Outputs ---
+*.log
+logs/
+receipts/
+evidence_packs/
+Backups/
+backups/
+_snapshots/
+reports/
+*.csv
+*.jsonl
+
+# --- Archives (upload to GitHub Releases instead) ---
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
