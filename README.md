@@ -228,3 +228,5 @@ VERIFY.ps1 — integrity verifier
 License
 
 TBD (private for now). Do not redistribute without permission.
+
+“CI PR check”
