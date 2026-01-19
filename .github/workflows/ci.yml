@@ -1,0 +1,20 @@
+﻿name: ci
+on:
+  push:
+  pull_request:
+
+jobs:
+  parse:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: PowerShell parse smoke
+        shell: powershell
+        run: |
+          $errors = $null
+          [void][System.Management.Automation.Language.Parser]::ParseFile("src\BellBoy-BB2-Release1_Free.ps1",[ref]$null,[ref]$errors)
+          if($errors -and $errors.Count){
+            $errors | ForEach-Object { $_.ToString() }
+            exit 1
+          }
+          Write-Host "OK: PowerShell parse"
